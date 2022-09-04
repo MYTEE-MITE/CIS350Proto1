@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Assignment 2
+ * Increments score, not currently in use
+ */
+
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Assignment 2
+ * Handles player input
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

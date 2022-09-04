@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Assignment 2
+ * Keeps track of score and win or loss state in game
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

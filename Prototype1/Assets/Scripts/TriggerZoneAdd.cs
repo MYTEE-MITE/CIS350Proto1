@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Assignment 2
+ * Trigger zone increments score once
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

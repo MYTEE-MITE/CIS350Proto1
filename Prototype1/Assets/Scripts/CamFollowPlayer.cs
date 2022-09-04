@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Assignment 2
+ * Camera follows player at offset
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
