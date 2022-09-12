@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 2
+ * Increments score upon successful collision
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

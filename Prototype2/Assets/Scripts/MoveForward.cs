@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 2
+ * Allows both the animals and wine bottles to move
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

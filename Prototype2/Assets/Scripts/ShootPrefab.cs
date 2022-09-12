@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 2
+ * Allows player to shoot wine bottles
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

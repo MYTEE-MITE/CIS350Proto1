@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 2
+ * Spawns random prefabs in random time increments
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

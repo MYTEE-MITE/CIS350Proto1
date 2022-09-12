@@ -1,4 +1,11 @@
-﻿//This script is based on https://www.youtube.com/watch?v=3uyolYVsiWc
+﻿/*
+ * John Green
+ * Prototype 2
+ * Handles the calculation of health and the loss state of the game.
+ * Provides restart function.
+ */
+
+//This script is based on https://www.youtube.com/watch?v=3uyolYVsiWc
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

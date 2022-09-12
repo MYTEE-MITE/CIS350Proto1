@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 2
+ * Allows the left and right movement of the player
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

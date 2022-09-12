@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 2
+ * Destroys game objects out of a given boundary
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
