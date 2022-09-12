@@ -14,7 +14,7 @@ public class SpawnManager : MonoBehaviour
 
     void Start()
     {
-       healthSystem = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>();
+        healthSystem = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>();
 
        StartCoroutine(SpawnRandomPrefabWithCoroutine());
     }
