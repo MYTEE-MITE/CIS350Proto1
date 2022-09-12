@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Challenge 2
+ * Destroys balls and dogs after they leave boundaries
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

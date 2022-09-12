@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Challenge 2
+ * Spawns random balls at random intervals at random locations
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

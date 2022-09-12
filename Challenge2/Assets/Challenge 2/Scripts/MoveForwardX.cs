@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Challenge 2
+ * Allows dogs to move forward
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

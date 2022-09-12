@@ -1,7 +1,12 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Challenge 2
+ * Increments score upon successful collision
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class DetectCollisionsX : MonoBehaviour
 {
     public ScoreKeeper scoreKeeperScript;
