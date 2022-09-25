@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 3
+ * Increments score every time an obstacle is cleared
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

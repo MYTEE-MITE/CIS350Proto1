@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 3
+ * Spawns an obstacle every couple seconds
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

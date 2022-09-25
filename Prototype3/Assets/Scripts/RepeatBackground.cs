@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 3
+ * Seamlessly loops background image
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

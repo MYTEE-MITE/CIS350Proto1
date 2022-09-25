@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 3
+ * Moves all attached game objects to the left at a constant rate and destroys them off screen
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

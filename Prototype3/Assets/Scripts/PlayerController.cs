@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * John Green
+ * Prototype 3
+ * Handles player animations, particle effects, audio, jumping, and all collisions that affect game state
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,11 +17,22 @@ public class PlayerController : MonoBehaviour
     public bool isOnGround = true;
     public bool gameOver = false;
 
+    public Animator playerAnimator;
+    public ParticleSystem explosionParticle;
+    public ParticleSystem dirtParticle;
+    public AudioClip jumpSound;
+    public AudioClip crashSound;
+    private AudioSource playerAudio;
+
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        playerAnimator = GetComponent<Animator>();
+        playerAnimator.SetFloat("Speed_f", 1.0f);
         forceMode = ForceMode.Impulse;
+        playerAudio = GetComponent<AudioSource>();
 
         if(Physics.gravity.y > -10)
         {
@@ -30,6 +47,9 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, forceMode);
             isOnGround = false;
+            playerAnimator.SetTrigger("Jump_trig");
+            dirtParticle.Stop();
+            playerAudio.PlayOneShot(jumpSound, 1.0f);
         }
     }
 
@@ -38,11 +58,17 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
+            dirtParticle.Play();
         }
         else if(collision.gameObject.CompareTag("Obstacle"))
         {
             Debug.Log("Game Over!");
             gameOver = true;
+            playerAnimator.SetBool("Death_b", true);
+            playerAnimator.SetInteger("DeathType_int", 1);
+            explosionParticle.Play();
+            playerAudio.PlayOneShot(crashSound, 1.0f);
+            dirtParticle.Stop();
         }
     }
 }
